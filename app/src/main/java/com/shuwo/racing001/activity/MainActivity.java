@@ -65,6 +65,12 @@ public class MainActivity extends BaseActivity {
             showFragment();
         }
 
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
         initBottomBar();
     }
 
