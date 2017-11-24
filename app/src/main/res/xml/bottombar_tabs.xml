@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home_page"
+        icon="@mipmap/shouye_seleted"
+        title="首页"
+        inActiveColor="@color/my_gray"
+        activeColor="@color/my_yellow"
+        barColorWhenSelected="@color/snow"
+        />
+    <tab
+        id="@+id/tab_schedule"
+        icon="@mipmap/saicheng_seleted"
+        title="赛程"
+        inActiveColor="@color/my_gray"
+        activeColor="@color/my_yellow"
+        barColorWhenSelected="@color/snow" />
+    <tab
+        id="@+id/tab_score_board"
+        icon="@mipmap/jifenbang_default"
+        title="积分榜"
+        inActiveColor="@color/my_gray"
+        activeColor="@color/my_yellow"
+        barColorWhenSelected="@color/snow" />
+    <tab
+        id="@+id/tab_information"
+        icon="@mipmap/zixun_seleted"
+        title="资讯"
+        inActiveColor="@color/my_gray"
+        activeColor="@color/my_yellow"
+        barColorWhenSelected="@color/snow"  />
+</tabs>

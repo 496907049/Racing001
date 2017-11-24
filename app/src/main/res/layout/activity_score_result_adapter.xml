@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+   >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="3dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="3">
+
+                <ImageView
+                    android:id="@+id/iv_medal"
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/tv_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="名次"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="2">
+
+                <TextView
+                    android:id="@+id/tv_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="国家"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/tv_diver_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="车手名"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_fleet_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="车队名"
+                android:layout_weight="2"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_integral"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="积分"
+                android:layout_weight="3"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
